@@ -56,9 +56,9 @@ public class DBConnectionPool {
     }
 
     private synchronized Connection createConnection(Connection conn) {
-        String url = "jdbc:derby://localhost:1527/DBCMS";
-        String user = "administrator";
-        String pw = "test123";
+        String url = "85.13.138.159";
+        String user = "d028a82e";
+        String pw = "UniPlattform06122017";
         try {
             conn = DriverManager.getConnection(url, user, pw);
         } catch (SQLException e) {
