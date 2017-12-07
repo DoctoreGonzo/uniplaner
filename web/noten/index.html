@@ -1,0 +1,211 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <title>
+
+            StudyCheck
+
+        </title>
+
+
+        <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+        <link href="../assets/css/toolkit-minimal.css" rel="stylesheet">
+        <link href="../assets/css/application-minimal.css" rel="stylesheet">
+
+
+
+
+        <style>
+            /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+            /* this chunk of css is not part of the toolkit :) */
+            /* …curses ios, etc… */
+            @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+                body {
+                    width: 1px;
+                    min-width: 100%;
+                    *width: 100%;
+                }
+                #stage {
+                    height: 1px;
+                    overflow: auto;
+                    min-height: 100vh;
+                    -webkit-overflow-scrolling: touch;
+                }
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+
+
+
+        <div class="container pt-4">
+            <nav class="navbar navbar-light navbar-toggleable-sm navbar-static-top text-uppercase app-navbar mb-5">
+                <button
+                    class="navbar-toggler navbar-toggler-right hidden-md-up"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand mr-auto" href="index.html">
+                    <span>StudyCheck</span>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../noten/index.html">Noten</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../termine/index.html">Termine</a>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </nav>
+        </div>
+
+        
+
+        <div class="container fluid">
+            <div class="form-group row">
+                <label for="matNummer" class="col-2 col-form-label">Matrikelnummer</label>
+                <div class="col-5">
+                    <input class="form-control" type="text" value="Matrikelnummer" id="matNummer">
+                </div>
+                <div class="col-5">
+                    <button type="submit" class="btn btn-primary">Noten laden</button>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="algo-k1" class="col-2 col-form-label">Algorithmen & Datenstrukturen </label>
+                <div class="col-2">
+                   <input class="form-control" type="text" value="Matrikelnummer" id="algo-k1">
+                </div>
+                <div class="col-2">
+                   <input class="form-control" type="text" value="Matrikelnummer" id="algo-k2">
+                </div>
+                <div class="col-2">
+                   <input class="form-control" type="text" value="Matrikelnummer" id="algo-k3">
+                </div>
+                <div class="col-2">
+                   <input class="form-control" type="text" value="Matrikelnummer" id="algo-k3">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-email-input" class="col-2 col-form-label">Email</label>
+                <div class="col-10">
+                    <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-url-input" class="col-2 col-form-label">URL</label>
+                <div class="col-10">
+                    <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+                <div class="col-10">
+                    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-password-input" class="col-2 col-form-label">Password</label>
+                <div class="col-10">
+                    <input class="form-control" type="password" value="hunter2" id="example-password-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-number-input" class="col-2 col-form-label">Number</label>
+                <div class="col-10">
+                    <input class="form-control" type="number" value="42" id="example-number-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+                <div class="col-10">
+                    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-date-input" class="col-2 col-form-label">Date</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-month-input" class="col-2 col-form-label">Month</label>
+                <div class="col-10">
+                    <input class="form-control" type="month" value="2011-08" id="example-month-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-week-input" class="col-2 col-form-label">Week</label>
+                <div class="col-10">
+                    <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="example-color-input" class="col-2 col-form-label">Color</label>
+                <div class="col-10">
+                    <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+                </div>
+            </div>
+        </div>   
+        <!--Footer-->       
+        <div class="block app-block-footer pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled list-spaced">
+                            <li><h6 class="text-uppercase">Rechtliches</h6></li>
+                            <li>Impressum</li>
+                            <li>Datenschutz</li>
+                            <li>Kontakt</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-uppercase">Über</h6>
+                        <p>Diese Webseite dient als Uni-Plattform für die Studiengruppe BIB5aM. Möglich ist es die Noten auszurechnen und die nächsten Termine auszugeben.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/tether.min.js"></script>
+        <script src="../assets/js/toolkit.js"></script>
+        <script src="../assets/js/application.js"></script>
+    </body>
+</html>
+
