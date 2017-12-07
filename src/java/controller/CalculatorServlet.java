@@ -51,11 +51,26 @@ public class CalculatorServlet extends HttpServlet {
         int kVWR = 60;
         int kVADW = 74;
         int kVNM = 78;
+        int kVPSA = 80;
         
         int cpWuM = 6;
         int cpAM = 6;
         int cpROS = 9;
-        int 
+        int cpBWL = 6;
+        int cpNA = 5;
+        int cpRuF = 6;
+        int cpSE = 7;
+        int cpKT = 5;
+        int cpWR = 6;
+        int cpADW = 7;
+        int cpNM = 5;
+        int cpSA = 9;
+        int cpITC = 6;
+        int cpARIS = 6;
+        int cpSEC = 6;
+        int cpINT = 6;
+        
+        
         
     }
 
